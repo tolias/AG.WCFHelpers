@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AG.LiteLoggers</name>
+    </assembly>
+    <members>
+        <member name="M:AG.PathStringOperations.ExtendedPath.GetIncrementedPath(System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="pattern">Pattern which means number part. Example: ({0})</param>
+            <param name="startNumber"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AG.PathStringOperations.FileDirectoryManager.CreateDirectoryForFile(System.String,System.IO.FileAttributes,AG.Loggers.LoggerBase,System.Boolean)" -->
+        <member name="M:AG.PathStringOperations.FileDirectoryManager.CreateDirectoryIfItDoesntExistForFile(System.String,System.Action)">
+            <summary>
+            
+            </summary>
+            <param name="action"></param>
+            <returns>True if directory existed. If it was created - returns false</returns>
+        </member>
+        <member name="M:AG.PathStringOperations.OperationsWithBackingUpFile.ActionWithFileWithBackingUp(System.String,System.Action{System.String},System.String)">
+            <summary>
+            Performs an action that is specified in <paramref name="actionWithFile"/> doing backup before it
+            </summary>
+            <param name="fileName">The final name of file</param>
+            <param name="backupFileNamePattern">The temporary backup file name. It can be a pattern where "{0}" is <paramref name="fileName"/></param>
+            <param name="actionWithFile">The action which will be performed. 'string' parameter is a backup file name</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AG.PathStringOperations.OperationsWithBackingUpFile.ActionWithFileAfterBackUp(System.String,System.Action{System.String},System.String,System.Boolean)" -->
+        <member name="T:AG.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AG.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AG.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:AG.Resources.CantCreateDirectory0ForFile1">
+            <summary>
+              Looks up a localized string similar to Can&apos;t create directory &quot;{0}&quot; for file &quot;{1}&quot;.
+            </summary>
+        </member>
+    </members>
+</doc>
