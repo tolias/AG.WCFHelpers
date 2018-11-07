@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AG.LiteLoggers, Version=2.4.4.27, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AG.LiteLoggers.2.4.4.27\lib\net35\AG.LiteLoggers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ServiceModel" />
@@ -52,10 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AG.LiteLoggers\LiteLoggers\AG.LiteLoggers.csproj">
-      <Project>{f46aaf93-2aff-4970-beb0-8dcabcea4278}</Project>
-      <Name>AG.LiteLoggers</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AG.WCFHelpers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Anatoly Gumenniy")]
+[assembly: AssemblyCompany("Anatolii Humennyi")]
 [assembly: AssemblyProduct("AG.WCFHelpers")]
-[assembly: AssemblyCopyright("Copyright © Anatoly Gumenniy 2015")]
+[assembly: AssemblyCopyright("Copyright © Anatolii Humennyi 2015-2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
