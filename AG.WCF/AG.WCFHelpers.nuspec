@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AG.WCFHelpers</id>
+    <version>1.1.0.1</version>
+    <title>AG.WCFHelpers</title>
+    <authors>Anatolii Humennyi</authors>
+    <owners>Anatolii Humennyi</owners>
+    <projectUrl>https://github.com/tolias/AG.WCFHelpers</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WCF helpers</description>
+    <releaseNotes>First deployed package</releaseNotes>
+    <copyright>Copyright © AG 2015-2018</copyright>
+    <tags>WCF</tags>
+    <dependencies>
+      <dependency id="AG.LiteLoggers" version="2.4.4.27" />
+    </dependencies>
+  </metadata>
+</package>
